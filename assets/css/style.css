@@ -1,0 +1,40 @@
+.moon-gray {
+  color: #cfd7e6;
+}
+
+.moon-gray {
+  color: hsla(216, 18%, 65%, .8);
+}
+
+.blue {
+  color: #4cc5fe;
+}
+
+.green {
+  color: #31d0c9;
+}
+
+.search {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid;
+  border-color: #4cc5fe;
+}
+
+.search::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+
+.search::-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+.video {
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
