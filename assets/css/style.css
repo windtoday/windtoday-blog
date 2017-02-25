@@ -1,17 +1,9 @@
 .moon-gray {
-  color: #cfd7e6;
-}
-
-.moon-gray {
   color: hsla(216, 18%, 65%, .8);
 }
 
 .blue {
   color: #4cc5fe;
-}
-
-.green {
-  color: #31d0c9;
 }
 
 .search {
@@ -39,13 +31,10 @@
 }
 
 .video {
-  /* Make video to at least 100% wide and tall */
   min-width: 100%;
   min-height: 100%;
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
   width: auto;
   height: auto;
-  /* Center the video */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,4 +47,25 @@
   display: inline-block;
   padding: .25rem;
   margin: 1rem 0;
+}
+
+/* not-small */
+
+@media screen and (min-width: 30em) {
+  .pricing-table {
+    border-collapse: separate;
+    border-spacing: 25px;
+  }
+
+  .recommended-tier {
+    transform: scale(1.1);
+  }
+}
+
+/* small */
+
+@media only screen and (max-width: 48em) {
+  .video-fallback {
+    background: url(/assets/img/video-fallback.png) no-repeat center;
+  }
 }
