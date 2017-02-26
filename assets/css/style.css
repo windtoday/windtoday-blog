@@ -67,6 +67,6 @@
 @media only screen and (max-width: 48em) {
   .video-fallback {
     background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-                    url(/assets/img/video-fallback.png) no-repeat center;
+                    url(assets/img/video-fallback.png) no-repeat center;
   }
 }
