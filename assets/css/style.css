@@ -29,32 +29,46 @@
   color: #c3c3c3;
 }
 
-.video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .badge {
   margin: 0;
   padding: 0;
   display: inline-block;
   padding: .25rem;
   margin: 1rem 0;
+}
+
+/* video */
+
+.jquery-background-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/img/video-fallback.png);
+}
+
+.jquery-background-video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  background: url(/assets/img/black-dots.png) left top repeat;
+  opacity: .25;
 }
 
 /* extra */
@@ -96,6 +110,10 @@
 /* small */
 
 @media only screen and (max-width: 48em) {
+  .nav-padding {
+    padding-top: 126px;
+  }
+
   .video-fallback {
     background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
                     url(/assets/img/video-fallback.png) no-repeat center;

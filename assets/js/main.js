@@ -1,13 +1,16 @@
 /* global $ */
 
 $(function () {
+  $('.jquery-background-video').bgVideo({
+    showPausePlay: false
+  })
+
   var searchEl = $('#search')
-  var suggestionsEl = $('#search-suggestions')
   var formEl = $('form')
   var searchQuery
 
   searchEl.typed({
-    stringsElement: suggestionsEl,
+    stringsElement: $('#search-suggestions'),
     attr: 'placeholder',
     typeSpeed: 50,
     backDelay: 1000,
