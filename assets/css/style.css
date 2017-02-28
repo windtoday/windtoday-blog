@@ -105,6 +105,10 @@
   .recommended-tier {
     transform: scale(1.1);
   }
+
+  .nav-padding {
+    padding-top: 64px;
+  }
 }
 
 /* small */
