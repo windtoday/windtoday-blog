@@ -20,7 +20,7 @@
     "standard": "latest"
   },
   "scripts": {
-    "start": "browser-sync start --server --files \"index.html, **/*.(css|js)\""
+    "dev": "browser-sync start --server --files \"index.html, **/*.(css|js)\""
   },
   "license": "MIT"
 }
