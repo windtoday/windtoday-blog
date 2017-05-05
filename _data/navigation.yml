@@ -1,0 +1,11 @@
+links:
+- name: App
+  link: https://app.windtoday.co
+  highlight: true
+  new_window: true
+- name: Pricing
+  link: /pricing/
+- name: Blog
+  link: /blog/
+- name: About
+  link: /about/

@@ -1,0 +1,21 @@
+- title: Navigation
+  links:
+    - name: App
+      link: https://app.windtoday.co
+      new_window: true
+    - name: Pricing
+      link: /pricing/
+    - name: Blog
+      link: /blog/
+    - name: About
+      link: /about/
+- title: Social
+  links:
+    - name: Facebook
+      link: https://www.facebook.com/windtodayco
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: https://twitter.com/windtodayco
+      social_icon: Twitter
+      new_window: true

@@ -1,0 +1,55 @@
+name                          : Windtoday
+title                         : Largest windsurf shops marketplace, all stock in one place
+url                           : https://windtoday.co
+google_analytics_key          : UA-85604345-1
+disqus_shortname              : windtoday
+description                   : Discover, compare and choose daily offers from the main windsurf shops. Pay and receive in your house, independently where are you.
+logo                          : https://windtoday.co/logo.png
+
+author                        :
+  name                        : Windtoday HQ
+  email                       : info@windtoday.co
+  twitter                     : windtodayco
+
+twitter                       :
+  username                    : windtodayco
+
+facebook                      :
+  publisher                   : windtodayco
+
+social                        :
+  name                        : Windtoday
+  links                       :
+    - https://facebook.com/windtodayco
+    - https://twitter.com/windtodayco
+
+paginate                      : 10
+paginate_path                 : "/blog/:num/"
+permalink                     : pretty
+
+jekyll-archives               :
+  enabled                     :
+    - "categories"
+
+gems                          :
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-archives"
+
+defaults                      :
+  - scope                     :
+      path                    : ""
+      type                    : "posts"
+    values                    :
+      layout                  : "post"
+  - scope                     :
+      path                    : ""
+      type                    : "pages"
+    values                    :
+      layout                  : "page"
+  - scope                     :
+      path                    : "index.html"
+      type                    : "pages"
+    values                    :
+      layout                  : "default"

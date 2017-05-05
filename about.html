@@ -1,0 +1,15 @@
+---
+title: About
+heading: Our Mission
+subtitle: Create a sostenible water sport ecosystem
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+		<ul class="image-grid">
+			{% for member in site.staff_members %}
+				<li>{% include staff-member.html member=member %}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
