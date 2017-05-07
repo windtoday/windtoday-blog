@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <section class="diagonal">
 	<div class="blog-post text-container">
 		{% include post-title.html post=page %}
@@ -9,6 +10,8 @@ layout: page
 		</div>
 	</div>
 </section>
+
+{% unless page.static %}
 
 <section class="diagonal alternate">
 	<div class="text-container">
@@ -49,3 +52,5 @@ layout: page
 		</div>
 	</section>
 {% endif %}
+
+{% endunless %}
