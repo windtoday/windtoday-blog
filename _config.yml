@@ -25,17 +25,18 @@ social                        :
 
 paginate                      : 10
 paginate_path                 : "/blog/:num/"
-permalink                     : pretty
+permalink                     : /blog/:title
 
 jekyll-archives               :
   enabled                     :
     - "categories"
 
 gems                          :
-  - "jekyll-feed"
-  - "jekyll-seo-tag"
-  - "jekyll-paginate"
   - "jekyll-archives"
+  - "jekyll-autoprefixer"
+  - "jekyll-feed"
+  - "jekyll-paginate"
+  - "jekyll-seo-tag"
 
 defaults                      :
   - scope                     :
