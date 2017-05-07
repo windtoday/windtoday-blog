@@ -1,29 +1,22 @@
 button {
-	font-family: inherit;
-	font-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 .pricing {
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   margin: 0 auto 3em;
 
   &-item {
     position: relative;
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column;
-            flex-direction: column;
-    -webkit-align-items: stretch;
-            align-items: stretch;
+    flex-direction: column;
+    align-items: stretch;
     text-align: center;
-    -webkit-flex: 0 1 330px;
-            flex: 0 1 330px;
+    flex: 0 1 330px;
   }
 
   &-action {
@@ -88,20 +81,17 @@ button {
   }
 
   .deco-layer {
-    -webkit-transition: -webkit-transform .5s;
-            transition: transform .5s;
+    transition: transform .5s;
   }
 
   .pricing-item {
     &:hover {
       .deco-layer--1 {
-        -webkit-transform: translate3d(15px, 0, 0);
-                transform: translate3d(15px, 0, 0);
+        transform: translate3d(15px, 0, 0);
       }
 
       .deco-layer--2 {
-        -webkit-transform: translate3d(-15px, 0, 0);
-                transform: translate3d(-15px, 0, 0);
+        transform: translate3d(-15px, 0, 0);
       }
     }
   }
@@ -148,15 +138,14 @@ button {
   }
 
   .pricing-action {
-    cursor:pointer;
+    cursor: pointer;
     font-weight: bold;
     margin: auto 3em 2em 3em;
     padding: 1em 2em;
     color: #fff;
     border-radius: 30px;
     background: $brand-color;
-    -webkit-transition: background-color .3s;
-            transition: background-color .3s;
+      transition: background-color .3s;
 
     &:hover, &:focus {
       background-color: #100a13;
