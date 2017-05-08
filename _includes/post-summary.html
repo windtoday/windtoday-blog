@@ -1,0 +1,16 @@
+<h3>
+  <a href="{{ site.baseurl }}{{ include.post.url }}">
+    {{ include.post.title }}
+  </a>
+</h3>
+
+{% include post-title.html post=include.post %}
+
+<div class="post-content">
+  <p>
+    {{ include.post.subtitle }}
+  </p>
+	<p>
+    <a href="{{ site.baseurl }}{{ include.post.url }}">Read More &rarr;</a>
+  </p>
+</div>
