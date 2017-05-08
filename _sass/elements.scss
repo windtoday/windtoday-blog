@@ -20,15 +20,32 @@ a:hover {
   text-decoration: underline;
 }
 
+figure {
+  margin: 0 0 40px 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  color: #9E9E9E;
+  margin-top: 12px;
 }
 
 h1 {
   font-weight: 300;
   font-size: 2.3rem;
   margin: 0;
+  line-height: 1.24731183em;
+  margin-top: 0.31182796em;
+  margin-bottom: 0.62365592em;
 }
 
 h2 {
@@ -38,11 +55,14 @@ h2 {
 }
 
 h3 {
+  font-weight: 300;
   font-size: 1.8rem;
   margin: 0 0 20px 0;
+  color: #9E9E9E;
 }
 
 h4 {
+  font-weight: 300;
   font-size: 1.5rem;
   margin: 0 0 10px 0;
 }
@@ -55,11 +75,19 @@ p, address, ul, ol {
   font-size: 1.38rem;
   color: #666;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 pre {
   padding: 10px;
   background: #eee;
   border-radius: 2px;
+}
+
+.red {
+  color: #F44336;
+}
+
+.green {
+  color: #4CAF50;
 }

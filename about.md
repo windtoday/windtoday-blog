@@ -6,14 +6,20 @@ subtitle: Create a sostenible water sport ecosystem
 static: true
 ---
 
-## Windtoday.co, the intelligent Windsurfing marketpalce.
+## Windtoday.co, Intelligent Watersport marketplace
 
-Our mission is to improve the e-commerce ecosystem of windsurfing, whether new or used equipment.
+We are a market of water sport shops.
 
-For do this, we promote the best offers from our different suppliers, following a shared market model and open data.
+We want to make water sport accesible for all people.
 
-Using this approach, the user has important control of what to buy and where. Over time, the price of gear tends to fall and demands will be higher.
+Our mission is create an e-commerce ecosystem, whether new or used equipment.
 
-We are integrated with leading international providers, and we offer you all the ads in one place, our website, where you can perform a simple or complex search to find what you are looking for.
+### Facing the users
 
-You can visit us on windtoday.co and remember to follow our social networks to have the latest offers.
+Being able to offer a high level vision of the market, providing the tools for explore all the information from one input point, and take a data driven decision.
+
+### Facing the shops
+
+We want to help you to have more traction, gain, promoting your best deals and improving your stock rotation, following a shared market model and open data.
+
+We want to **disrupt** in the waterport market.
