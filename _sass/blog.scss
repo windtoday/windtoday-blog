@@ -81,4 +81,8 @@ $secondary-information-color: #9e9e9e;
 
 .anchorjs-link {
   color: $secondary-information-color;
+  transition: .2s ease-in-out;
+  &:hover {
+    border: 0;
+  }
 }
