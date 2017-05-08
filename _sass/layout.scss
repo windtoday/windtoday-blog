@@ -31,10 +31,16 @@ header {
       text-decoration: none;
     }
   }
+}
 
-  .company-name {
-    font-size: 1.7em;
+.company-link {
+  &:hover {
+    border: 0
   }
+}
+
+.company-logo {
+  display: inline;
 }
 
 .content {
