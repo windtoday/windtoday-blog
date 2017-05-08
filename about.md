@@ -6,13 +6,13 @@ subtitle: Create a sostenible water sport ecosystem
 static: true
 ---
 
-## Windtoday.co, Intelligent Watersport marketplace
+## Windtoday.co, Intelligent Watersport Marketplace
 
 We are a market of water sport shops.
 
 We want to make water sport accesible for all people.
 
-Our mission is create an e-commerce ecosystem, whether new or used equipment.
+Our goal is to create an e-commerce ecosystem that covers all sort of equipment, regardless of whether they are new or second hand.
 
 ### Facing the users
 
