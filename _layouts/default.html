@@ -67,8 +67,12 @@
 			</div>
 		</footer>
 
-
+    <script src="https://cdn.jsdelivr.net/anchorjs/3.2.2/anchor.min.js"></script>
 		<script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        anchors.add('.blog-post.text-container h1, .blog-post.text-container h2, .blog-post.text-container h3, .blog-post.text-container h4, .blog-post.text-container h5,.blog-post.text-container h6');
+      });
+
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				return false;

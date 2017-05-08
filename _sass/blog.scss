@@ -1,3 +1,5 @@
+$secondary-information-color: #9E9E9E;
+
 .blog-posts {
   list-style: none;
   padding: 0;
@@ -42,6 +44,7 @@
       position: relative;
       top: -3px;
       margin-left: 5px;
+      color: $secondary-information-color;
     }
 
     &:after {
@@ -78,4 +81,8 @@
       text-decoration: none;
     }
   }
+}
+
+.anchorjs-link {
+  color: $secondary-information-color;
 }

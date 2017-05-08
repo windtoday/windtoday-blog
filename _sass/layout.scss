@@ -74,11 +74,11 @@ section {
     margin-top: -100px;
     padding-top: 250px;
 
-    h2, p {
+    h1, p {
       max-width: 90%;
     }
 
-    h2 {
+    h1 {
       font-size: 3.5rem;
     }
 
@@ -89,7 +89,6 @@ section {
 
     a:not(.button) {
       color: #fff;
-      font-style: italic;
     }
   }
 
