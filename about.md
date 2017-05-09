@@ -6,7 +6,7 @@ subtitle: Create a sostenible water sport ecosystem
 static: true
 ---
 
-## Windtoday.co, Intelligent Watersport Marketplace
+## Windtoday.co, Intelligent water sports Marketplace
 
 We are a market of water sports shops.
 
