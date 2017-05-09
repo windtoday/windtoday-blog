@@ -3,6 +3,7 @@ title: How to write good products
 subtitle: As search engine, We work all time transforming data into information. To achieve it, we transform the shop information of each item into structured data.
 categories:
   - tips
+  - shops
 show_comments: true
 image: /images/posts/sailsize.jpg
 ---
