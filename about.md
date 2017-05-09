@@ -8,18 +8,18 @@ static: true
 
 ## Windtoday.co, Intelligent Watersport Marketplace
 
-We are a market of water sport shops.
+We are a market of water sports shops.
 
-We want to make water sport accesible for all people.
+We want to make water sports accessible for everyone.
 
 Our goal is to create an e-commerce ecosystem that covers all sort of equipment, regardless of whether they are new or second hand.
 
 ### Facing the users
 
-Being able to offer a high level vision of the market, providing the tools for explore all the information from one input point, and take a data driven decision.
+We are able to offer a high level vision of the market. We facilitate the tools to explore all the information in a single place, in order to let the user to take better decisions based on useful data.
 
 ### Facing the shops
 
-We want to help you to have more traction, gain, promoting your best deals and improving your stock rotation, following a shared market model and open data.
+We want to help you to increase both your traction and gain by promoting your best deals, improving your stock rotation and following a shared market model.
 
-We want to **disrupt** in the waterport market.
+We want to **disrupt** in the water sports market.
