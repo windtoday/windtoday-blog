@@ -3,14 +3,7 @@
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
-}
-
-.text-container {
-  max-width: 1000px;
-}
-
-.container {
-  max-width: 1000px;
+  max-width: $max-width;
 }
 
 header {
@@ -53,7 +46,7 @@ header {
   height: auto;
   display: block;
   margin: 0 auto;
-  box-shadow: 0 1px 0 #ccc, 0 1px 1px #eee;
+  box-shadow: 0 1px 0 #ccc, 0 1px 1px $grey-200;
   border-radius: 2px;
   padding: 20px 0 0;
   background: url($screenshot-buttons) 4px 4px no-repeat #ddd;
@@ -85,7 +78,8 @@ section {
     }
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 3rem;
+      margin-bottom: 1.7777778rem;
     }
 
     p {
@@ -99,7 +93,7 @@ section {
   }
 
   &.alternate {
-    background: #eee;
+    background: $grey-100;
   }
 }
 

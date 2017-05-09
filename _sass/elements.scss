@@ -1,5 +1,5 @@
 html {
-  background: $html-background-color;
+  background: $grey-900;
 }
 
 html, body {
@@ -11,13 +11,51 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+strong, b {
+  font-weight: 400;
+}
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: 0.25rem solid #e5e5e5;
+  position: relative;
+
+  &.info {
+    border-left-color: $brand-color;
+    background-color: $grey-50;
+
+    &::before {
+      background-color: $brand-color;
+      border-radius: 100%;
+      color: $white;
+      content: "i";
+      font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      left: -12px;
+      line-height: 20px;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      top: 14px;
+    }
+  }
+}
+
 a {
   color: $brand-color;
   text-decoration: none;
+  border: 0;
+  transition: border .2s ease-in-out;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
 }
 
 a:hover {
-  border-bottom: 1px solid transparent;
+
   border-bottom-color: inherit;
 }
 
@@ -36,7 +74,7 @@ figcaption {
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  color: #9E9E9E;
+  color: $grey-500;
   margin-top: 12px;
 }
 
@@ -56,6 +94,7 @@ h2 {
 }
 
 h3 {
+  color: $grey-500;
   font-weight: 300;
   font-size: 1.8rem;
   margin: 0 0 20px 0;
@@ -74,13 +113,13 @@ p, address, ul, ol, pre {
 
 p, address, ul, ol {
   font-size: 1.38rem;
-  color: #666;
+  color: $grey-700;
   font-weight: 300;
   line-height: 1.8;
 }
 
 pre {
   padding: 10px;
-  background: #eee;
+  background: $grey-200;
   border-radius: 2px;
 }

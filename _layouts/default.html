@@ -42,11 +42,10 @@
 							</li>
 							{% for link in column.links %}
 								<li>
+                  {% if link.social_icon %}
+                    {% include social-icon.html icon=link.social_icon %}
+                  {% endif %}
 									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-										{% if link.social_icon %}
-											{% include social-icon.html icon=link.social_icon %}
-										{% endif %}
-
 										{{ link.name }}
 									</a>
 								</li>
@@ -57,7 +56,12 @@
 					<ul class="footer-links">
 						<li><h2>{{ site.author.name }}</h2></li>
 						<li>{{ site.author.email }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+						<li>
+              {% include social-icon.html icon="RSS" %}
+              <a href="{{ site.baseurl }}/feed.xml">
+                Subscribe with RSS
+              </a>
+            </li>
 					</ul>
 				</div>
 			</div>

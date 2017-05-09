@@ -2,7 +2,7 @@ footer {
   @extend section;
   padding: 100px 0 50px 0;
   position: relative;
-  background: $html-background-color;
+  background: $grey-900;
   color: #fff;
 
   &, a {
@@ -50,25 +50,14 @@ footer {
     list-style: none;
     margin: 15px 0;
 
-    a {
-      svg {
-        fill: #999;
-        margin-right: 10px;
-        transition: fill .2s ease;
-        vertical-align: middle;
-        position: relative;
-        top: -2px;
-        width: 22px;
-        height: 22px;
-      }
-
-      &:hover {
-        text-decoration: none;
-
-        svg {
-          fill: #fff;
-        }
-      }
+    svg {
+      fill: #999;
+      transition: fill .2s ease;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+      width: 22px;
+      height: 22px;
     }
   }
 }

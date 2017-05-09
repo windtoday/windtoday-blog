@@ -1,18 +1,24 @@
 ---
 ---
 
-$pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
 $brand-color: #19b5fe;
-$html-background-color: #222;
-$secondary-brand-color: #FFC461;
-$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$white: #FFF;
+$grey-50: #FAFAFA;
+$grey-100: #F5F5F5;
+$grey-200: #EEEEEE;
+$grey-500: #9E9E9E;
+$grey-600: #757575;
+$grey-700: #616161;
+$grey-900: #212121;
+$black: #000;
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
+$max-width: 960px;
 
 $section-rotation: 5deg;
 

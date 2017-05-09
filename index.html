@@ -5,7 +5,7 @@ image: https://windtoday.co/logo.png
 
 <section class="hero diagonal">
 	<div class="container">
-		<h2 class="editable">All watersport stock at one place</h2>
+		<h1 class="editable">All watersport stock at one place</h1>
 		<p class="subtext editable">
 			<strong>Simple</strong>, <strong>Global</strong> and <strong>Realtime</strong>.
 		<p>
@@ -17,7 +17,7 @@ image: https://windtoday.co/logo.png
 <section class="diagonal">
 	<div class="container halves">
 		<div>
-			<h3 class="editable">Find what you want</h3>
+			<h2 class="editable">Find what you want</h2>
 			<p class="editable">
         Discover, compare and choose daily offers from the main watersports shops.
       </p>
@@ -28,9 +28,9 @@ image: https://windtoday.co/logo.png
 		</div>
 		<div>
 			<ul class="image-grid">
-				{% for feature in site.posts limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ feature.url }}">
-            <img src="{% include relative-src.html src=feature.image %}" alt="{{ feature.title }}">
+				{% for post in site.categories['user guide'] limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{% include relative-src.html src=post.image %}" alt="{{ post.title }}">
           </a></li>
 				{% endfor %}
 			</ul>
@@ -46,7 +46,7 @@ image: https://windtoday.co/logo.png
 			</ul>
 		</div>
 		<div>
-			<h3 class="editable">Shopping integration</h3>
+			<h2 class="editable">Shopping integration</h2>
 			<p class="editable">
         No matters what e-commerce solution you are using.
 			</p>
