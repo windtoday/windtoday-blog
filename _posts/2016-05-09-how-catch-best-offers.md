@@ -4,7 +4,7 @@ subtitle: Probably if you ask this question to different people, you will get di
 categories:
   - user guide
 show_comments: true
-image: /images/posts/score-search.gif
+image: /images/posts/score-search.jpg
 ---
 
 ## What is an offer?

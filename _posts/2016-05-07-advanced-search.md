@@ -3,7 +3,7 @@ title: Advanced Search
 subtitle: If you are familiar with the basic search, now is moment to know all the secrets and explore all the possibilities that the search engine can provide to you.
 categories:
   - user guide
-image: /images/posts/quote-search.gif
+image: /images/posts/quote-search.jpg
 ---
 
 ## Phrase Search
@@ -42,7 +42,7 @@ You can use the `-` symbol for this action, in this case, `NeilPryde -combat`.
 The aside filters make possible refine the current search, but also provide you extra information: It shows you the distribution of the data, and you can get a more high level vision about what brands are more present in the market.
 
 <figure>
-  <img src="/images/posts/brands.png">
+  <img src="/images/posts/brands.jpg">
   <figcaption>Looks like North have more presence in the market than the rest of sails brands</figcaption>
 </figure>
 

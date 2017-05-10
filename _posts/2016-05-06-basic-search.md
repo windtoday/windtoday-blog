@@ -3,7 +3,7 @@ title: Basic Search
 subtitle: Even if you want to search for a specific product in mind or simply you want to explore the offers in the market, this is a guide to know how the application works.
 categories:
   - user guide
-image: /images/posts/basic-search.gif
+image: /images/posts/basic-search.jpg
 ---
 
 ## Start typing what you want
