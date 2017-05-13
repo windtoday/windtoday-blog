@@ -3,7 +3,7 @@
 $(function () {
   var handler = StripeCheckout.configure({
     key: 'pk_live_3Wuqx47tGykhuLnbJtFHto4W',
-    image: 'http://windtoday.co/logo.jpg',
+    image: 'https://windtoday.co/logo.jpg',
     locale: 'auto',
     token: function (token) {
       $.post('https://windtoday.now.sh/payment', {
