@@ -43,11 +43,15 @@ It makes the information complete.
 
 ## Same item, different size
 
-If you want to offer the same item in different sizes, the best way is by varying only this size value
+A common case in a shop is the ability to offer the same item in different sizes. Also the price has a little increment when the size is bigger.
+
+A simple approach for solving that is to create a unique item per each size variation.
+
+Another smart way would be just offer an unique item and leave in the user the ability to choose the size variation, also including the price increment:
 
 <figure>
   <img src="/images/posts/sailsize.jpg">
-  <figcaption>How to telstarsurf.com handle different size of the same item</figcaption>
+  <figcaption>How to we-wind.com handle different size of the same item</figcaption>
 </figure>
 
 ## Second hand section per each category
