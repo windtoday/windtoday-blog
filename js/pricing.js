@@ -34,9 +34,9 @@ $(function () {
     })
   }
 
-  createPlan('.small-btn', {name: 'Small', amount: 1200})
-  createPlan('.medium-btn', {name: 'Medium', amount: 2400})
-  createPlan('.large-btn', {name: 'Large', amount: 7000})
+  createPlan('.small-btn', {name: 'Small', amount: 1400})
+  createPlan('.medium-btn', {name: 'Medium', amount: 2600})
+  createPlan('.large-btn', {name: 'Large', amount: 9900})
 
   window.addEventListener('popstate', handler.close)
 })
