@@ -1,16 +1,7 @@
-<nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	<ul>
-		{% for link in site.data.navigation.links %}
-			{% assign class = "" %}
-			{% if link.highlight %}
-				{% assign class = class | append: " highlight" %}
-			{% endif %}
-
-			{% if link.link == page.url %}
-				{% assign class = class | append: " active" %}
-			{% endif %}
-			<li><a href="{{ site.baseurl }}{{ link.link }}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
-		{% endfor %}
-	</ul>
+<nav class="main-nav">
+    {% if page.url != "/" %}
+      <a href="{{ site.baseurl }}/"> <span class="arrow">←</span> Blog </a>
+    {% endif %}
+    <a href="{{ site.baseurl }}/about">About </a>
+    <a class="cta" href="{{ site.baseurl }}/pricing">Pricing</a>
 </nav>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  {% include navigation.html %}
+
+  <article class="post">
+    {% include post-header.html post=page %}
+
+    <section class="wrapper">
+      {% capture pricing_header %}{% include pricing_header.md %}{% endcapture %}
+      {{ pricing_header | markdownify }}
+    </section>
+
+    {{ content }}
+
+    <section class="wrapper">
+      {% capture pricing_footer %}{% include pricing_footer.md %}{% endcapture %}
+      {{ pricing_footer | markdownify }}
+    </section>
+  </article>
+
+  <div class="wrapper">
+    {% include footer.html %}
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>

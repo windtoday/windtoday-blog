@@ -1,56 +1,41 @@
 ---
-layout: page
+layout: default
+archive: true
 ---
 
-<section class="diagonal">
-	<div class="blog-post text-container">
-		{% include post-title.html post=page %}
-		<div class="post-content">
-			{{ content }}
-		</div>
-	</div>
-</section>
+<article class="post">
+  {% include post-header.html post=page %}
+  <section id="post-body">
+    {{content}}
+  </section>
+</article>
 
-{% unless page.static %}
+{% if page.static %}
 
-<section class="diagonal alternate">
-	<div class="text-container">
-		<h3>Next post</h3>
-		<div class="blog-post">
-			{% if page.next %}
-				{% include post-summary.html post=page.next %}
-			{% elsif page.previous %}
-				{% include post-summary.html post=page.previous %}
-			{% endif %}
-		</div>
-	</div>
-</section>
+{% include footer.html %}
 
-{% if site.disqus_shortname and page.show_comments %}
-	<section class="diagonal">
-		<div class="container">
-			<h2>Comments</h2>
-			<div id="disqus_thread"></div>
-			<script>
-				/**
-				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-				/*
-				var disqus_config = function () {
-				this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-				this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-				};
-				*/
-				(function() { // DON'T EDIT BELOW THIS LINE
-				var d = document, s = d.createElement('script');
-				s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
-				s.setAttribute('data-timestamp', +new Date());
-				(d.head || d.body).appendChild(s);
-				})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		</div>
-	</section>
+{% else %}
+
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/{{ site.author.twitter }}">
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/avatar.png">
+        <div>
+            <span class="dark">{{ site.author.name }}</span>
+            <span>{{ site.description }}</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        {% include share.html %}
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+{% if site.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </div>
 {% endif %}
 
-{% endunless %}
+{% endif %}
