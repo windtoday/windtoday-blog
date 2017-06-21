@@ -59,6 +59,6 @@ It's a good approach that shops offers second hand stock as well. We love it!
 The best way to handle it is include the section per each category
 
 <figure>
-  <img src="/images/posts/second-hand-section.jpg" style="height: 500px">
+  <img src="/images/posts/second-hand-section.jpg">
   <figcaption>bigsurfshop.com second hand section per each category</figcaption>
 </figure>
