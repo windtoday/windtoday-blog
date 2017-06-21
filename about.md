@@ -1,8 +1,7 @@
 ---
+title: Mission
+description: Create a sostenible water sport ecosystem
 layout: post
-title: About
-heading: Our Mission
-subtitle: Create a sostenible water sport ecosystem
 static: true
 ---
 

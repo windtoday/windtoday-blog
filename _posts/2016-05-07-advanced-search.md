@@ -1,8 +1,8 @@
 ---
 title: Advanced Search
-subtitle: If you are familiar with the basic search, now is moment to know all the secrets and explore all the possibilities that the search engine can provide to you.
+description: If you are familiar with the basic search, now is moment to know all the secrets and explore all the possibilities that the search engine can provide to you.
 categories:
-  - user guide
+  - shops
 image: /images/posts/quote-search.jpg
 ---
 
