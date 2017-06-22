@@ -19,7 +19,7 @@ Commonly, an offer is **an item with reduced price**, but the point is that you 
 
 ## Establishing the baseline
 
-To detect *real offers* in [our application](https://app.windtoday.co), first of all we group the items in **segments** based on three characteristics:
+To detect *real offers* in [our application](https://windtoday.co), first of all we group the items in **segments** based on three characteristics:
 
 - **Category**: Each items of each *category* have different prices, so this is an expected first classification to avoid false positives.
 
