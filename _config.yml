@@ -1,59 +1,73 @@
-name                          : Windtoday
-title                         : Largest water sports marketplace, all stock in one place
-url                           : https://windtoday.co
-google_analytics_key          : UA-85604345-1
-disqus_shortname              : windtoday
-description                   : Discover, compare and choose daily offers from the main water sport shops. Pay and receive it at your sweetie home, independently where are you.
-logo                          : https://windtoday.co/logo.png
+title: Windtoday Blog
+description: windsurfing marketplace
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-author                        :
-  name                        : Windtoday HQ
-  email                       : info@windtoday.co
-  twitter                     : windtodayco
+markdown: kramdown
+highlighter: rouge
 
-twitter                       :
-  username                    : windtodayco
+gems:
+  - jekyll-archives
+  - jekyll-autoprefixer
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-facebook                      :
-  publisher                   : windtodayco
+domain_name: http://blog.windtoday.com
+google_analytics: UA-85604345-1
+disqus: windtoday
 
-social                        :
-  name                        : Windtoday
-  links                       :
+# jekyll-paginate
+paginate: 10
+paginate_path: "/:num"
+permalink: "/:title/"
+
+# jekyll-seo
+author:
+  name: Windtoday Blog
+  email: info@windtoday.co
+  twitter: windtodayco
+
+twitter:
+  username: windtodayco
+
+facebook:
+  publisher: windtodayco
+
+social:
+  name: Windtoday
+  links:
     - https://facebook.com/windtodayco
     - https://twitter.com/windtodayco
 
-paginate                      : 10
-paginate_path                 : "/blog/:num/"
-permalink                     : /blog/:title
+# jekyll-archive
+jekyll-archives:
+  enabled:
+    - categories
+  permalinks:
+    category: /category/:name/
 
-jekyll-archives               :
-  enabled                     :
-    - "categories"
-  permalinks                  :
-    category                  : '/blog/category/:name/'
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
 
-gems                          :
-  - "jekyll-archives"
-  - "jekyll-autoprefixer"
-  - "jekyll-feed"
-  - "jekyll-paginate"
-  - "jekyll-seo-tag"
-  - "jekyll-sitemap"
-
-defaults                      :
-  - scope                     :
-      path                    : ""
-      type                    : "posts"
-    values                    :
-      layout                  : "post"
-  - scope                     :
-      path                    : ""
-      type                    : "pages"
-    values                    :
-      layout                  : "page"
-  - scope                     :
-      path                    : "index.html"
-      type                    : "pages"
-    values                    :
-      layout                  : "default"
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js

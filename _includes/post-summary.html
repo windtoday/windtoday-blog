@@ -1,16 +1,15 @@
-<h2>
-  <a href="{{ site.baseurl }}{{ include.post.url }}">
-    {{ include.post.title }}
-  </a>
-</h2>
-
-{% include post-title.html post=include.post %}
-
-<div class="post-content">
-  <p>
-    {{ include.post.subtitle }}
-  </p>
-	<p>
-    <a href="{{ site.baseurl }}{{ include.post.url }}">Read More &rarr;</a>
-  </p>
-</div>
+<a href="{{ site.baseurl }}/{{ include.post.url | remove_first: '/' }}">
+  <aside class="dates">{{ include.post.date | date:"%b %d" }}</aside>
+</a>
+<a href="{{ site.baseurl }}/{{ include.post.url | remove_first: '/' }}">
+  {{ include.post.title }} <h2>{{ include.post.description }}</h2>
+</a>
+<section class="badges">
+  {% for category in include.post.categories %}
+    <span>
+      <a class="badge" href="{{ site.baseurl }}/category/{{ category | slugify }}/">
+        {{ category | capitalize }}
+      </a>
+    </span>
+  {% endfor %}
+</section>

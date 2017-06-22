@@ -1,8 +1,8 @@
 ---
 title: Basic Search
-subtitle: Even if you want to search for a specific product in mind or simply you want to explore the offers in the market, this is a guide to know how the application works.
+description: Even if you want to search for a specific product in mind or simply you want to explore the offers in the market, this is a guide to know how the application works.
 categories:
-  - user guide
+  - shops
 image: /images/posts/basic-search.jpg
 ---
 

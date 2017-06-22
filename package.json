@@ -1,10 +1,11 @@
 {
-  "name": "windtoday-website",
+  "name": "windtoday-blog",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/windtoday/windtoday.github.io#readme",
-  "version": "0.0.0",
-  "main": "index.js",
-  "author": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/windtoday/windtoday.github.io.git"
@@ -13,15 +14,18 @@
     "url": "https://github.com/windtoday/windtoday.github.io/issues"
   },
   "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "engines": {
+    "node": ">= 8"
+  },
   "devDependencies": {
     "browser-sync": "latest",
-    "concurrently": "latest"
-  },
-  "scripts": {
-    "client": "browser-sync start --files 'css/*.css' --proxy 'localhost:4000' --files '_posts/*.md' --files '_drafts/*.md' --reloadDelay '3000'",
-    "server": "bundle exec jekyll server",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-
-  },
-  "license": "ISC"
+    "concurrently": "latest",
+    "gulp": "latest",
+    "gulp-shell": "latest",
+    "gulp-util": "latest",
+    "standard": "latest"
+  }
 }

@@ -1,10 +1,8 @@
 ---
 title: How to write good products
-subtitle: As search engine, We work all time transforming data into information. To achieve it, we transform the shop information of each item into structured data.
+description: As search engine, We work all time transforming data into information. To achieve it, we transform the shop information of each item into structured data.
 categories:
-  - tips
-  - shops
-show_comments: true
+  - engineering
 image: /images/posts/sailsize.jpg
 ---
 
@@ -61,6 +59,6 @@ It's a good approach that shops offers second hand stock as well. We love it!
 The best way to handle it is include the section per each category
 
 <figure>
-  <img src="/images/posts/second-hand-section.jpg" style="height: 500px">
+  <img src="/images/posts/second-hand-section.jpg">
   <figcaption>bigsurfshop.com second hand section per each category</figcaption>
 </figure>

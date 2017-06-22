@@ -1,0 +1,26 @@
+---
+---
+
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$blue-500: #19b5fe;
+$blue-700: #12a5fe;
+$blue-900: #003056;
+
+$black       : #000;
+$near-black  : #eee;
+$dark-gray   : #222; // used
+$mid-gray    : #333; // used
+$gray        : #666; // used
+$silver      : #eee;
+$light-silver: #aaa; // used
+$light-gray  : #bbb; // used
+$near-white  : #eee; // used
+$white       : #fff; // used
+
+$white-90 : rgba(255,255,255,.90);
+
+@import "reset";
+@import "elements";
+@import "highlight";
+@import "pricing";

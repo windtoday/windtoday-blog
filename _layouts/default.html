@@ -1,89 +1,20 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-
-	{% seo %}
-	{% feed_meta %}
-
-	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-		<script>
-			(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
-
-			ga("create", "{{ site.google_analytics_key }}", "auto");
-			ga("send", "pageview");
-		</script>
-	{% endif %}
+  {% include head.html %}
 </head>
-	<body>
-		<header>
-			<div class="container">
-        <a class="company-link" href="{{ site.baseurl }}/">
-          <img class="company-logo" src="{{ site.baseurl }}/logo.svg" alt="{{ site.name }}" width="50">
-        </a>
-				{% include navigation.html %}
-			</div>
-		</header>
-		{{ content }}
+<body>
 
-		<footer class="diagonal">
-			<div class="container">
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-						<ul class="footer-links">
-							<li>
-								<h2>{{ column.title }}</h2>
-							</li>
-							{% for link in column.links %}
-								<li>
-                  {% if link.social_icon %}
-                    {% include social-icon.html icon=link.social_icon %}
-                  {% endif %}
-									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-										{{ link.name }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					{% endfor %}
+  {% include navigation.html %}
 
-					<ul class="footer-links">
-						<li><h2>{{ site.author.name }}</h2></li>
-						<li>{{ site.author.email }}</li>
-						<li>
-              {% include social-icon.html icon="RSS" %}
-              <a href="{{ site.baseurl }}/feed.xml">
-                Subscribe with RSS
-              </a>
-            </li>
-					</ul>
-				</div>
-			</div>
+  {% if page.layout == 'default' or page.layout == 'archive' %}
+    {% include profile.html %}
+  {% endif %}
 
-			<div class="legal-line">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-				</p>
-			</div>
-		</footer>
+  <section class="wrapper{% if page.layout == 'default' or page.layout == 'archive' %} list{% endif %}">
+    {{ content }}
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/anchorjs/3.2.2/anchor.min.js"></script>
-		<script>
-      document.addEventListener("DOMContentLoaded", function(event) {
-        anchors.add('.blog-post.text-container h1, .blog-post.text-container h2, .blog-post.text-container h3, .blog-post.text-container h4, .blog-post.text-container h5,.blog-post.text-container h6');
-      });
-
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
-    <script src="https://mssg.me/widget/kikobeats" async></script>
-	</body>
+  {% include scripts.html %}
+</body>
 </html>

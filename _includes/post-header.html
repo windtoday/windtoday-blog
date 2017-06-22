@@ -1,0 +1,10 @@
+<header>
+  <a href="{{ include.post.url }}">
+    <img
+      id="avatar"
+      class="2x"
+      src="{{ site.baseurl }}/assets/images/avatar.png"/>
+  </a>
+  <h1>{{ include.post.title }}</h1>
+  <h2 class="headline">{{ include.post.date | date:"%B %-d, %Y" }}</h2>
+</header>
