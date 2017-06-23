@@ -13,7 +13,10 @@
   "bugs": {
     "url": "https://github.com/windtoday/windtoday.github.io/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "windtoday",
+    "blog"
+  ],
   "author": "",
   "license": "ISC",
   "private": true,
