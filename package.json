@@ -1,11 +1,10 @@
 {
   "name": "windtoday-blog",
-  "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/windtoday/windtoday.github.io#readme",
+  "version": "2.0.0",
   "main": "gulpfile.js",
-  "scripts": {
-    "dev": "gulp"
-  },
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/windtoday/windtoday.github.io.git"
@@ -14,15 +13,9 @@
     "url": "https://github.com/windtoday/windtoday.github.io/issues"
   },
   "keywords": [
-    "windtoday",
-    "blog"
+    "blog",
+    "windtoday"
   ],
-  "author": "",
-  "license": "ISC",
-  "private": true,
-  "engines": {
-    "node": ">= 8"
-  },
   "devDependencies": {
     "browser-sync": "latest",
     "concurrently": "latest",
@@ -30,5 +23,13 @@
     "gulp-shell": "latest",
     "gulp-util": "latest",
     "standard": "latest"
-  }
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "dev": "gulp"
+  },
+  "private": true,
+  "license": "ISC"
 }
