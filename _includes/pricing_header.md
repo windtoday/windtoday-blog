@@ -2,7 +2,7 @@
 
 **Be part of the marketplace means we will start listing your products and promoting your best deals.**
 
-<iframe src="//widget.similarweb.com/traffic/windtoday.co" frameborder="0" width="450" height="200" style="border: solid 1px #D7D7D7;"></iframe>
+<iframe src="https://widget.similarweb.com/traffic/windtoday.co" frameborder="0" width="450" height="200" style="border: solid 1px #D7D7D7;"></iframe>
 
 We guaranteed you more customers visiting your products, making them more discoverable.
 
