@@ -13,7 +13,7 @@ gems:
   - jekyll-sitemap
 
 domain_name: http://blog.windtoday.com
-google_analytics: UA-85604345-1
+google_analytics: UA-85604345-3
 disqus: windtoday
 
 # jekyll-paginate
