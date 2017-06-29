@@ -1,19 +1,22 @@
 /* global $, StripeCheckout, swal */
 
 function createCheckout (planId) {
+  const overlay = $('body')
   return StripeCheckout.configure({
     key: 'pk_live_3Wuqx47tGykhuLnbJtFHto4W',
     image: 'https://blog.windtoday.co/logo.jpg',
     locale: 'auto',
     token: function (token) {
+      overlay.loading({message: 'Processing...'})
       $.post('https://windtoday.now.sh/payment', {
         token: token, plan: planId
       }, function (res) {
+        overlay.loading('stop')
         var status = res.status
         if (status === 'success') {
-          swal('Payment received', 'Now you\'re part of the ecosystem', 'success')
+          swal('Payment received', 'we\'ve sent you the receipt', 'success')
         } else {
-          swal('Oops...', 'Something went wrong!', 'error')
+          swal('Something went wrong!', 'Please contact with info@windtoday.co', 'error')
         }
       })
     }
