@@ -39,7 +39,7 @@ function createPlan (selector, opts) {
 }
 
 $(function () {
-  createPlan('.small-btn', {name: 'Small', amount: 1900, planId: 'small_v2'})
-  createPlan('.medium-btn', {name: 'Medium', amount: 2600, planId: 'medium'})
-  createPlan('.large-btn', {name: 'Large', amount: 9900, planId: 'large'})
+  createPlan('.small-btn', {name: 'Small', amount: 1900, planId: 'small_v3'})
+  createPlan('.medium-btn', {name: 'Medium', amount: 2600, planId: 'medium_v3'})
+  createPlan('.large-btn', {name: 'Large', amount: 9900, planId: 'large_v3'})
 })
