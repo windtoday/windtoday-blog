@@ -4,7 +4,7 @@ description: windtoday is windsurfing marketplace to discover, compare & choose 
 markdown: kramdown
 highlighter: rouge
 
-gems:
+plugins:
   - jekyll-archives
   - jekyll-autoprefixer
   - jekyll-feed
