@@ -4,7 +4,7 @@ description: windtoday is windsurfing marketplace to discover, compare & choose 
 markdown: kramdown
 highlighter: rouge
 
-plugins:
+plugins_dir:
   - jekyll-archives
   - jekyll-autoprefixer
   - jekyll-feed
@@ -53,18 +53,21 @@ defaults:
             type: pages
         values:
             layout: default
+            image: /cover.jpg
     -
         scope:
             path: "" # empty string for all files
             type: posts
         values:
             layout: post
+            image: /cover.jpg
     -
         scope:
             path: ""
             type: drafts
         values:
             layout: post
+            image: /cover.jpg
 
 exclude:
   - package.json
