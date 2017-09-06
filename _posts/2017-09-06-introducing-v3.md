@@ -10,9 +10,9 @@ categories:
   <figcaption>windtoday loves your mobile.</figcaption>
 </figure>
 
-We are very excited to announce the new version of [windtoday.co](https://windtoday.co) version. We called it **version 3.0.0** 🎉.
+We are very excited to announce the new version of [windtoday.co](https://windtoday.co). We called it **version 3.0.0** 🎉.
 
-This new version is focused in improve the mobile experience, optimizing all the application menus to be accessible with one hand.
+This new version is focused on improving the mobile experience, optimizing all the application menus to be accessible with one hand.
 
 Let’s walk through what’s been improved and what’s altogether new!
 
@@ -23,11 +23,11 @@ Let’s walk through what’s been improved and what’s altogether new!
   <figcaption>The new design is oriented for mobile devices.</figcaption>
 </figure>
 
-From the first version of the application we learned that people access it mainly from mobile device, so we decide restructure the website to be completely mobile and handled by one hand.
+From the first version of the application we learned that people access it mainly from mobile device, so we decide redesign the website to be completely mobile friendly and handled by one hand.
 
 This includes a new design. Of course you can still visit the website from your computer, but now the mobile experience is better.
 
-## Sort By
+## Sorting products
 
 <figure style="width:50%; margin: 0 auto 20px auto;">
   <img src="/images/posts/windtoday-v3-2.png">
@@ -36,7 +36,7 @@ This includes a new design. Of course you can still visit the website from your 
 
 In the application, the products are showed following a certain order.
 
-The sort way that we use for show products are based in a price score analyzing of each product in the market using similar products to him as reference.
+The sort way that we use for show products are based in a price score analyzing of each product in the market, using similar products to him as reference.
 
 This makes possible show first the right deals, not only based in the price, also taking in consideration year, condition, material or size.
 
@@ -44,11 +44,11 @@ We recommend you read [How Catch Best Offers](https://blog.windtoday.co/how-catc
 
 The thing that we included now is the possibility to change the sort criteria.
 
-For example, if you are interested in check the latest products added in the marketplace you can do it.
+For example, if you are interested in check the latest products added in the marketplace, now you can do it.
 
-This open a world of possibilities, like sort results by year or price. We are exploring more useful criteria to be added in the future.
+This open a world of possibilities, like sort results by year or price; We are exploring more useful criteria to be added in the future.
 
-## Tags Filtering
+## Filtering the search
 
 <figure style="width:50%; margin: 0 auto 20px auto;">
   <img src="/images/posts/windtoday-v3-3.png">
@@ -63,7 +63,7 @@ Now, each product in the market has a set of tags related to the product (year, 
 
 You can apply different tag filters at the same time and refine the search easily. This makes the process more friendly, showing less unnecessary information.
 
-## Single view information
+## Showing technical information
 
 <figure style="width:50%; margin: 0 auto 20px auto;">
   <img src="/images/posts/windtoday-v3-4.png">
