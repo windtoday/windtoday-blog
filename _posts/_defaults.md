@@ -4,5 +4,4 @@ heading:
 categories:
 show_comments: true
 date:
-image: /cover.jpg
 ---
