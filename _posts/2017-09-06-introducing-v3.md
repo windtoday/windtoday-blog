@@ -3,6 +3,7 @@ title: Introducing v3.0.0
 description: We are very excited to announce our windtoday version. We called it v3 🎉.
 categories:
   - releases
+image: /images/posts/windtoday-v3.png
 ---
 
 <figure>
