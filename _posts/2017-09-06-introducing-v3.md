@@ -24,7 +24,7 @@ Let’s walk through what’s been improved and what’s altogether new!
   <figcaption>The new design is oriented for mobile devices.</figcaption>
 </figure>
 
-From the first version of the application we learned that people access it mainly from mobile device, so we decide redesign the website to be completely mobile friendly and handled by one hand.
+From the first version of the application we learned that people access it mainly from mobile devices, so we decided to redesign the website to be more mobile-friendly so that it can be used with only one hand.
 
 This includes a new design. Of course you can still visit the website from your computer, but now the mobile experience is better.
 
@@ -37,17 +37,17 @@ This includes a new design. Of course you can still visit the website from your 
 
 In the application, the products are showed following a certain order.
 
-The sort way that we use for show products are based in a price score analyzing of each product in the market, using similar products to him as reference.
+The sorting method that we use to show products is based on a price score analyzing each product in the market, comparing them with similar products.
 
-This makes possible show first the right deals, not only based in the price, also taking in consideration year, condition, material or size.
+This makes possible showing at the top better deals based not only in the price, but also in the year, condition, material and size.
 
-We recommend you read [How Catch Best Offers](https://blog.windtoday.co/how-catch-best-offers) to learn more about that.
+We recommend you to read [How Catch Best Offers](https://blog.windtoday.co/how-catch-best-offers) to learn more about that.
 
-The thing that we included now is the possibility to change the sort criteria.
+The new feature that we included now is the possibility to change the sort criteria.
 
-For example, if you are interested in check the latest products added in the marketplace, now you can do it.
+For example, if you are interested in checking the latest products added in the marketplace, now you can.
 
-This open a world of possibilities, like sort results by year or price; We are exploring more useful criteria to be added in the future.
+This opens a whole new world of possibilities, like sorting results by year or price. We are exploring more useful criteria to be added in the future. Stay tuned for further news.
 
 ## Filtering the search
 
@@ -56,11 +56,11 @@ This open a world of possibilities, like sort results by year or price; We are e
   <figcaption>Applying filters while you are navigating.</figcaption>
 </figure>
 
-Our mission is to provide all the information to you, and you can choose the right product. This includes you show a lot of filters to apply in the current search, like price, year, brands, size, material, ...
+Our mission is to provide all the information to you so that you can choose the right product. This includes letting you choose among lots of filters to apply in the current search. e.g: price, year, brands, size, material.
 
-The point is, we have a lot of filters, and it's sometimes difficult to show you all the information. Actually we do not need it; We simplify the process designing a better way to apply filters that we call it tagging filtering.
+Since we have so many filters, it's difficult to show you the information altogether. Actually, we don't to do it. We have simplified the process designing a better way to apply filters that we call tagging filtering.
 
-Now, each product in the market has a set of tags related to the product (year, condition, range of size, material). Simply clicking on them you filter all the marketplace just to see products with this tag.
+Now, each product in the market has a set of tags related to the product: year, condition, range of size, material. Simply clicking on them will filter across the marketplace just to see products with the selected tags.
 
 You can apply different tag filters at the same time and refine the search easily. This makes the process more friendly, showing less unnecessary information.
 
@@ -71,12 +71,12 @@ You can apply different tag filters at the same time and refine the search easil
   <figcaption>Seeing technical information related with the product.</figcaption>
 </figure>
 
-We was lacked this feature in previous versions of [windtoday.co](https://windtoday.co), but now it has been added it.
+We were lacking this feature in previous versions of [windtoday.co](https://windtoday.co). But not anymore! It has just been added.
 
-When you click in an product, instead of go directly to the shop, now you will see more technical information related with the product.
+When you click in an product, instead of going directly to the shop, now you will see more technical information related to the product.
 
-This new behavior of the application make easier go back and check similar product without lose the focus in the search.
+This new behavior eases the process of going back to check for similar products without losing the focus of the search.
 
-It makes easy sharing the URL as well.
+It also makes sharing the URL easier.
 
 Check it out at [windtoday.co](https://windtoday.co) 💨.
