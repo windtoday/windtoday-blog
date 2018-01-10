@@ -52,6 +52,13 @@ Another smart way would be just offer an unique item and leave in the user the a
   <figcaption>How to we-wind.com handle different size of the same item</figcaption>
 </figure>
 
+Even if you need to attach more than one properties with the item, always use units:
+
+<figure>
+  <img src="/images/posts/mastsize.jpg">
+  <figcaption>A we-wind.com mast specifying size, carbon percentage and extra price.</figcaption>
+</figure>
+
 ## Second hand section per each category
 
 It's a good approach that shops offers second hand stock as well. We love it!
